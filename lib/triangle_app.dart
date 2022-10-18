@@ -14,7 +14,7 @@ String detectTriangle(num sideA, num sideB, num sideC) {
 
 // memastikan bahwa itu segitiga berdasarkan besar sudut
   if (sides[0] + sides[1] <= sides[2]) {
-    throw Exception("Inequal Triangle");
+    throw Exception("This is Inequal Triangle");
   }
 
   //  if (sideA == sideB && sideA == sideC && sideB == sideC) {
